@@ -17,7 +17,10 @@ function App() {
         <AddTodo />
         <Todos />
       </div>
-      <footer className="footer w-full from-[#172842] to-[#121e40] py-4 px-6 text-white mt-4">
+      <footer className="footer w-full from-[#172842] to-[#121e40] py-5 px-6 text-white mt-4">
+        <p id="footer" className="text-sm text-gray-300 py-3">
+          © | 2024 | Barmanji
+        </p>
         <div className="max-w-7xl mx-auto flex flex-col items-center">
           <ul className="footer-list flex space-x-3 mb-4">
             <li>
@@ -63,9 +66,7 @@ function App() {
               </a>
             </li>
           </ul>
-          <p id="footer" className="text-sm text-gray-300">
-            © | 2024 | Barmanji
-          </p>
+
         </div>
       </footer>
     </div>
