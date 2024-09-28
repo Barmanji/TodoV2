@@ -1,3 +1,5 @@
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +41,39 @@
 
 .read-the-docs {
   color: #888;
+} 
+.todo-list {
+  overflow-y: auto; /* Enables vertical scrolling for the todo list */
+  max-height: 80vh; /* Adjust this value based on your layout */
 }
+body {
+    overflow: hidden; /* Prevents scrolling on the main window */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #121e40; /* Change background color as necessary */
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+
+
+/* Optional: Customize scrollbar if needed */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
