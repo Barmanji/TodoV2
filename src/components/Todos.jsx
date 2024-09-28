@@ -34,7 +34,7 @@ function Todos() {
       <ul className="list-none space-y-4">
         {todos.map((todo) => (
           <li
-            className={`flex justify-between items-center bg-zinc-800 p-4 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-lg duration-300 ease-in-out`}
+            className={`flex justify-between items-center bg-zinc-800 p-4 rounded-lg shadow-md `}
             key={todo.id}
           >
             <div className="flex items-center">
