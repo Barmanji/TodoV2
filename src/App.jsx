@@ -17,7 +17,7 @@ function App() {
         <AddTodo />
         <Todos />
       </div>
-      <footer className="footer w-full from-[#172842] to-[#121e40] py-7 px-6 text-white mt-12">
+      <footer className="footer w-full from-[#172842] to-[#121e40] py-7 px-6 text-white mt-12 z-20">
         <p id="footer" className="text-sm text-gray-300 py-3">
           © | 2024 | Barmanji
         </p>
