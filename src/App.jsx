@@ -8,7 +8,12 @@ function App() {
 
   return (
     <>
-      <h1 className='bg-black text-white w-full'> Todo V2 </h1>
+
+      <img
+        src='https://w.wallhaven.cc/full/7p/wallhaven-7p5j9y.jpg'
+        alt="Todo Illustration"
+        className="absolute inset-0 w-full h-full object-cover -z-10" // Fill container while maintaining aspect ratio
+      />
       <AddTodo />
       <Todos />
     </>
